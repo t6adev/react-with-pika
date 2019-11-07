@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        },
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "@pika/web/assets/babel-plugin.js"
+  ]
+}

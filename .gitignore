@@ -1,0 +1,6 @@
+*~
+*.swp
+npm-debug.log
+.DS_Store
+dest
+node_modules
